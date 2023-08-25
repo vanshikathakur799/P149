@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Project 149 </title>
+        <script src = 'https://aframe.io/releases/1.0.4/aframe.min.js'></script>
+    </head>
+
+    <body>
+        <a-scene background = 'color: pink'>
+            <a-assets>
+                <a-asset-item id = 'cupboard' src = 'models/cupboard/tinker.obj'></a-asset-item>
+                <a-asset-item id = 'cupboard_mtl' src = 'models/cupboard/obj.mtl'></a-asset-item>
+            </a-assets>
+
+            <a-entity obj-model = 'obj: #cupboard; mtl: #cupboard_mtl' position = '0 0 -5' scale = '0.05 0.05 0.05' rotation = '-90 0 0'></a-entity>
+        </a-scene>
+    </body>
+</html>
